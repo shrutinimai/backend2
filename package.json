@@ -1,14 +1,19 @@
 {
-  "name": "cleancode",
+  "name": "nodemon-npm-package-json",
   "version": "1.0.0",
+  "description": "my first project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-
+    "start": "node index.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
